@@ -3,9 +3,9 @@ import { Badge } from "./ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
-import forumLogo from 'figma:asset/e45d7d0f86f9b09c3384035246bdbd993e7b42e5.png';
-import messagingAppImage from 'figma:asset/ab426fa468e4bbd9cc3225901c3f6b51f23d1466.png';
-import groundwaterImage from 'figma:asset/aef6db5950b1031ed9fbe92345c055675bfb101f.png';
+import forumLogo from '../assets/IGnition.png';
+import messagingAppImage from '../assets/C chat.png';
+import groundwaterImage from '../assets/AI.jpeg';
 
 export function Projects() {
   const projects = [

@@ -1,5 +1,5 @@
 import { Github, Linkedin } from "lucide-react";
-import profileImage from "figma:asset/467900c7d323a0fa832c37a5932d67c758ff2bac.png";
+import profileImage from "../assets/Hero.jpeg";
 
 export function Hero() {
   return (
