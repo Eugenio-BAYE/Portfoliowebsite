@@ -49,7 +49,6 @@ export function Hero() {
                   src={profileImage} 
                   alt="Eugénio Baye"
                   className="relative w-full h-auto object-cover object-[30%_center] brightness-110 contrast-105"
-                  style={{ objectPosition: '30% center' }}
                 />
               </div>
             </div>
