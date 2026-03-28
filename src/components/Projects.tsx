@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 import forumLogo from '../assets/IGnition.png';
@@ -15,7 +15,6 @@ export function Projects() {
       tags: ["React", "Express", "Prisma", "Docker"],
       imageSrc: forumLogo,
       link: "https://docs.eugeniobaye.fr/2-Projects/School-Projects/IGnition",
-      githubLink: null
     },
     {
       title: "Groundwater Prediction AI",
@@ -23,7 +22,6 @@ export function Projects() {
       tags: ["Python", "TensorFlow", "Data Science"],
       imageSrc: groundwaterImage,
       link: null,
-      githubLink: null
     },
     {
       title: "Real-Time Messaging App",
@@ -31,7 +29,6 @@ export function Projects() {
       tags: ["C", "Socket Programming", "Networking"],
       imageSrc: messagingAppImage,
       link: null,
-      githubLink: null
     }
   ];
 
@@ -41,7 +38,7 @@ export function Projects() {
         <div className="space-y-6 mb-16">
           <h2 className="text-emerald-400 text-4xl md:text-5xl font-bold">Featured Projects</h2>
           <p className="text-zinc-300 text-lg leading-relaxed">
-            A few examples of projects to showcase among others
+            A selection of projects I've worked on, from academic to personal.
           </p>
         </div>
 
@@ -70,10 +67,10 @@ export function Projects() {
                   ))}
                 </div>
               </CardContent>
-              <CardFooter className="gap-2">
+              <CardFooter>
                 <TooltipProvider>
                   {project.link ? (
-                    <a 
+                    <a
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -88,29 +85,6 @@ export function Projects() {
                         <div className="flex-1 inline-flex items-center justify-center gap-2 bg-zinc-700/50 text-zinc-500 px-4 py-2 rounded-lg cursor-not-allowed">
                           <ExternalLink size={16} />
                           View More
-                        </div>
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>Not available right now</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  )}
-                </TooltipProvider>
-                <TooltipProvider>
-                  {project.githubLink ? (
-                    <a 
-                      href={project.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-2 border border-zinc-600 text-zinc-300 px-4 py-2 rounded-lg hover:border-emerald-400 hover:text-emerald-400 hover:shadow-md hover:shadow-emerald-500/10 transition-all"
-                    >
-                      <Github size={16} />
-                    </a>
-                  ) : (
-                    <Tooltip>
-                      <TooltipTrigger asChild>
-                        <div className="inline-flex items-center justify-center gap-2 border border-zinc-600/50 text-zinc-500 px-4 py-2 rounded-lg cursor-not-allowed">
-                          <Github size={16} />
                         </div>
                       </TooltipTrigger>
                       <TooltipContent>
