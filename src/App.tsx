@@ -4,7 +4,6 @@ import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
-import { Navigation } from "./components/Navigation";
 import { Background } from "./components/Background";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -12,7 +11,6 @@ export default function App() {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100 relative">
       <Background />
-      <Navigation />
       <main className="relative z-10">
         <Hero />
         <About />

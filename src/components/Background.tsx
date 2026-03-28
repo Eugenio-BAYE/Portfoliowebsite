@@ -1,17 +1,20 @@
 'use client';
 
 import { motion } from 'motion/react';
+import { useMemo } from 'react';
 
 export function Background() {
-  // Generate particles
-  const particles = Array.from({ length: 30 }, (_, i) => ({
-    id: i,
-    x: Math.random() * 100,
-    y: Math.random() * 100,
-    size: Math.random() * 4 + 2,
-    duration: Math.random() * 20 + 15,
-    delay: Math.random() * 5,
-  }));
+  const particles = useMemo(() =>
+    Array.from({ length: 30 }, (_, i) => ({
+      id: i,
+      x: Math.random() * 100,
+      y: Math.random() * 100,
+      size: Math.random() * 4 + 2,
+      duration: Math.random() * 20 + 15,
+      delay: Math.random() * 5,
+      xOffset: Math.random() * 40 - 20,
+    })),
+  []);
 
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none">
@@ -36,7 +39,7 @@ export function Background() {
           }}
           animate={{
             y: [0, -50, 0],
-            x: [0, Math.random() * 40 - 20, 0],
+            x: [0, particle.xOffset, 0],
             opacity: [0.4, 0.8, 0.4],
             scale: [1, 1.4, 1],
           }}

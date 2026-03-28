@@ -17,7 +17,7 @@ export function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20">
+    <section id="skills" className="py-20 bg-zinc-900/30 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-6 mb-16">
           <h2 className="text-emerald-400 text-4xl md:text-5xl font-bold">Skills & Expertise</h2>
