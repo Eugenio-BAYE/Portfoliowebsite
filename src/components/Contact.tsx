@@ -34,7 +34,7 @@ export function Contact() {
         <div className="space-y-6 mb-16 text-center">
           <h2 className="text-emerald-400 text-4xl md:text-5xl font-bold">Let's Connect</h2>
           <p className="text-zinc-300 max-w-2xl mx-auto text-lg leading-relaxed">
-            Seeking a <span className="text-emerald-400">5-6 month internship</span> from <span className="text-zinc-100">February to August 2026</span>
+            Feel free to reach out, always open to interesting conversations
           </p>
         </div>
 
@@ -66,13 +66,10 @@ export function Contact() {
 
         <div className="mt-12 text-center">
           <div className="bg-zinc-800/50 backdrop-blur-sm border border-emerald-400/30 rounded-xl p-10 inline-block">
-              <h3 className="text-zinc-100 text-xl mb-4">
-                <span className="text-emerald-400">Available</span> for Internship
+              <h3 className="text-zinc-100 text-xl mb-8">
+                Let's get in touch
               </h3>
-              <p className="text-zinc-400 mb-8 max-w-md text-lg leading-relaxed">
-                <span className="text-zinc-200">Software/AI Engineering & Management</span>
-              </p>
-              <a 
+              <a
                 href="https://linkedin.com/in/eugénio-baye"
                 target="_blank"
                 rel="noopener noreferrer"

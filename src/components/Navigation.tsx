@@ -30,11 +30,11 @@ export function Navigation() {
             <button onClick={() => scrollToSection("about")} className="text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
               About
             </button>
-            <button onClick={() => scrollToSection("experience")} className="text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
-              Experience
-            </button>
             <button onClick={() => scrollToSection("projects")} className="text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
               Projects
+            </button>
+            <button onClick={() => scrollToSection("experience")} className="text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
+              Experience
             </button>
             <button onClick={() => scrollToSection("skills")} className="text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
               Skills
@@ -59,11 +59,11 @@ export function Navigation() {
             <button onClick={() => scrollToSection("about")} className="block w-full text-left py-2 text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
               About
             </button>
-            <button onClick={() => scrollToSection("experience")} className="block w-full text-left py-2 text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
-              Experience
-            </button>
             <button onClick={() => scrollToSection("projects")} className="block w-full text-left py-2 text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
               Projects
+            </button>
+            <button onClick={() => scrollToSection("experience")} className="block w-full text-left py-2 text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
+              Experience
             </button>
             <button onClick={() => scrollToSection("skills")} className="block w-full text-left py-2 text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
               Skills

@@ -22,7 +22,7 @@ export default function App() {
       </main>
       <footer className="relative z-10 border-t border-zinc-800 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-zinc-400">
-          <p>© 2025 Eugénio Baye. All rights reserved.</p>
+          <p>© 2026 Eugénio Baye. All rights reserved.</p>
         </div>
       </footer>
     </div>

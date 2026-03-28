@@ -7,12 +7,6 @@ export function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <div className="inline-block">
-              <span className="text-emerald-400 px-3 py-1 bg-emerald-400/10 rounded-full border border-emerald-400/20">
-                Available for Internship
-              </span>
-            </div>
-            
             <h1 className="text-zinc-100 text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
               Hi, I'm <span className="text-emerald-400">Eugénio Baye</span>
             </h1>
@@ -42,6 +36,7 @@ export function Hero() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 border border-zinc-700 bg-zinc-800/50 backdrop-blur-sm text-zinc-300 px-6 py-3 rounded-lg hover:border-emerald-400 hover:text-emerald-400 hover:shadow-lg hover:shadow-emerald-500/10 transition-all"
               >
+                <Github size={20} />
                 View GitHub
               </a>
             </div>
