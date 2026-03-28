@@ -1,6 +1,7 @@
 import { Briefcase, Calendar, Sparkles } from "lucide-react";
 
 export function Experience() {
+  // TODO: Add more experiences when available
   const experiences = [
     {
       title: "AI Integration Research in Game Development",
@@ -13,17 +14,6 @@ export function Experience() {
         { text: "AI integration research", bold: "AI" },
         { text: "Educational mobile games", bold: "mobile games" },
         { text: "Documentation & presentation", bold: "Documentation" }
-      ]
-    },
-    {
-      title: "Management and Landscaping",
-      company: "Côté Jardin",
-      location: "Lacoste, France",
-      period: "2021 - 2024",
-      highlights: ["Management", "IT Systems"],
-      description: [
-        { text: "Project monitoring & accounting", bold: "Project monitoring" },
-        { text: "Information system creation", bold: "IT" }
       ]
     }
   ];

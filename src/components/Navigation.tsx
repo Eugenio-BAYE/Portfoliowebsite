@@ -33,9 +33,6 @@ export function Navigation() {
             <button onClick={() => scrollToSection("projects")} className="text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
               Projects
             </button>
-            <button onClick={() => scrollToSection("experience")} className="text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
-              Experience
-            </button>
             <button onClick={() => scrollToSection("skills")} className="text-zinc-300 hover:text-emerald-400 transition-colors font-medium">
               Skills
             </button>
