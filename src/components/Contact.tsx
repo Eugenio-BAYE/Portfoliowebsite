@@ -1,4 +1,4 @@
-import { Linkedin, Github, MapPin, Mail } from "lucide-react";
+import { Linkedin, Github, Mail } from "lucide-react";
 
 export function Contact() {
   const contactInfo = [
@@ -11,20 +11,20 @@ export function Contact() {
       buttonIcon: Mail
     },
     {
+      icon: Linkedin,
+      label: "LinkedIn",
+      value: "linkedin.com/in/eugenio-baye",
+      href: "https://www.linkedin.com/in/eugenio-baye/",
+      buttonText: "Visit LinkedIn",
+      buttonIcon: Linkedin
+    },
+    {
       icon: Github,
       label: "GitHub",
       value: "github.com/Eugenio-BAYE",
       href: "https://github.com/Eugenio-BAYE",
       buttonText: "Visit GitHub",
       buttonIcon: Github
-    },
-    {
-      icon: MapPin,
-      label: "Location",
-      value: "Montpellier, France",
-      href: "https://www.google.com/maps/place/Montpellier,+France",
-      buttonText: "View on Map",
-      buttonIcon: MapPin
     }
   ];
 
@@ -64,22 +64,6 @@ export function Contact() {
           })}
         </div>
 
-        <div className="mt-12 text-center">
-          <div className="bg-zinc-800/50 backdrop-blur-sm border border-emerald-400/30 rounded-xl p-10 inline-block">
-              <h3 className="text-zinc-100 text-xl mb-8">
-                Let's get in touch
-              </h3>
-              <a
-                href="https://linkedin.com/in/eugénio-baye"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-emerald-400 text-zinc-950 px-8 py-4 rounded-lg hover:bg-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition-all text-lg"
-              >
-                <Linkedin size={22} />
-                Connect on LinkedIn
-              </a>
-            </div>
-        </div>
       </div>
     </section>
   );

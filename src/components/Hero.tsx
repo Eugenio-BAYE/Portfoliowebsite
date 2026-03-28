@@ -21,7 +21,7 @@ export function Hero() {
 
             <div className="flex flex-wrap gap-4">
               <a 
-                href="https://linkedin.com/in/eugénio-baye" 
+                href="https://www.linkedin.com/in/eugenio-baye/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-emerald-400 text-zinc-950 px-6 py-3 rounded-lg hover:bg-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition-all"
