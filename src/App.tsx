@@ -6,6 +6,7 @@ import { Skills } from "./components/Skills";
 import { Contact } from "./components/Contact";
 import { Navigation } from "./components/Navigation";
 import { Background } from "./components/Background";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
           <p>© 2026 Eugénio Baye. All rights reserved.</p>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
